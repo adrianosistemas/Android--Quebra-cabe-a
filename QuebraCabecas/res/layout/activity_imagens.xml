@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imagens_ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/imagens_LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/imagens_TextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecione a imagem desejada:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:orientation="horizontal">"
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/imagens_lista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
